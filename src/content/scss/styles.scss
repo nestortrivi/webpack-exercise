@@ -1,0 +1,38 @@
+$color-principal: #ff6d56 !important;
+$color-fondo: #FFC799 !important;
+$color-white: #FFF;
+
+html,
+body {
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-color: $color-principal;
+    color: $color-white;
+    padding: 1rem 1rem 2rem !important;
+    margin: 0 !important;
+    border-radius: 0% !important;
+}
+
+.jumbotron p {
+    text-align: center;
+}
+
+.jumbotron  {
+    margin: 0 auto;
+}
+
+.hola-mundo {    
+    color: $color-principal;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+.hola-mundo h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 200px;
+}
